@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B68DE9D61CC7552E00974EE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68DE9D51CC7552E00974EE6 /* main.m */; };
+		B68DE9D91CC7552E00974EE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B68DE9D81CC7552E00974EE6 /* AppDelegate.m */; };
+		B68DE9DC1CC7552E00974EE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B68DE9DB1CC7552E00974EE6 /* ViewController.m */; };
+		B68DE9DF1CC7552E00974EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68DE9DD1CC7552E00974EE6 /* Main.storyboard */; };
+		B68DE9E11CC7552E00974EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68DE9E01CC7552E00974EE6 /* Assets.xcassets */; };
+		B68DE9E41CC7552E00974EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68DE9E21CC7552E00974EE6 /* LaunchScreen.storyboard */; };
+		B68DE9EF1CC7552E00974EE6 /* LYPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68DE9EE1CC7552E00974EE6 /* LYPayDemoTests.m */; };
+		B68DE9FA1CC7552E00974EE6 /* LYPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68DE9F91CC7552E00974EE6 /* LYPayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B68DE9EB1CC7552E00974EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68DE9C91CC7552E00974EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68DE9D01CC7552E00974EE6;
+			remoteInfo = LYPayDemo;
+		};
+		B68DE9F61CC7552E00974EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B68DE9C91CC7552E00974EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B68DE9D01CC7552E00974EE6;
+			remoteInfo = LYPayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B68DE9D11CC7552E00974EE6 /* LYPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68DE9D51CC7552E00974EE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B68DE9D71CC7552E00974EE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B68DE9D81CC7552E00974EE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B68DE9DA1CC7552E00974EE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B68DE9DB1CC7552E00974EE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B68DE9DE1CC7552E00974EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B68DE9E01CC7552E00974EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B68DE9E31CC7552E00974EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B68DE9E51CC7552E00974EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68DE9EA1CC7552E00974EE6 /* LYPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68DE9EE1CC7552E00974EE6 /* LYPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPayDemoTests.m; sourceTree = "<group>"; };
+		B68DE9F01CC7552E00974EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68DE9F51CC7552E00974EE6 /* LYPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B68DE9F91CC7552E00974EE6 /* LYPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPayDemoUITests.m; sourceTree = "<group>"; };
+		B68DE9FB1CC7552E00974EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B68DE9CE1CC7552E00974EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68DE9E71CC7552E00974EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68DE9F21CC7552E00974EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68DE9C81CC7552E00974EE6 = {
+			isa = PBXGroup;
+			children = (
+				B68DE9D31CC7552E00974EE6 /* LYPayDemo */,
+				B68DE9ED1CC7552E00974EE6 /* LYPayDemoTests */,
+				B68DE9F81CC7552E00974EE6 /* LYPayDemoUITests */,
+				B68DE9D21CC7552E00974EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B68DE9D21CC7552E00974EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B68DE9D11CC7552E00974EE6 /* LYPayDemo.app */,
+				B68DE9EA1CC7552E00974EE6 /* LYPayDemoTests.xctest */,
+				B68DE9F51CC7552E00974EE6 /* LYPayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B68DE9D31CC7552E00974EE6 /* LYPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B68DE9D71CC7552E00974EE6 /* AppDelegate.h */,
+				B68DE9D81CC7552E00974EE6 /* AppDelegate.m */,
+				B68DE9DA1CC7552E00974EE6 /* ViewController.h */,
+				B68DE9DB1CC7552E00974EE6 /* ViewController.m */,
+				B68DE9DD1CC7552E00974EE6 /* Main.storyboard */,
+				B68DE9E01CC7552E00974EE6 /* Assets.xcassets */,
+				B68DE9E21CC7552E00974EE6 /* LaunchScreen.storyboard */,
+				B68DE9E51CC7552E00974EE6 /* Info.plist */,
+				B68DE9D41CC7552E00974EE6 /* Supporting Files */,
+			);
+			path = LYPayDemo;
+			sourceTree = "<group>";
+		};
+		B68DE9D41CC7552E00974EE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B68DE9D51CC7552E00974EE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B68DE9ED1CC7552E00974EE6 /* LYPayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B68DE9EE1CC7552E00974EE6 /* LYPayDemoTests.m */,
+				B68DE9F01CC7552E00974EE6 /* Info.plist */,
+			);
+			path = LYPayDemoTests;
+			sourceTree = "<group>";
+		};
+		B68DE9F81CC7552E00974EE6 /* LYPayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B68DE9F91CC7552E00974EE6 /* LYPayDemoUITests.m */,
+				B68DE9FB1CC7552E00974EE6 /* Info.plist */,
+			);
+			path = LYPayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B68DE9D01CC7552E00974EE6 /* LYPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68DE9FE1CC7552E00974EE6 /* Build configuration list for PBXNativeTarget "LYPayDemo" */;
+			buildPhases = (
+				B68DE9CD1CC7552E00974EE6 /* Sources */,
+				B68DE9CE1CC7552E00974EE6 /* Frameworks */,
+				B68DE9CF1CC7552E00974EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYPayDemo;
+			productName = LYPayDemo;
+			productReference = B68DE9D11CC7552E00974EE6 /* LYPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B68DE9E91CC7552E00974EE6 /* LYPayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68DEA011CC7552E00974EE6 /* Build configuration list for PBXNativeTarget "LYPayDemoTests" */;
+			buildPhases = (
+				B68DE9E61CC7552E00974EE6 /* Sources */,
+				B68DE9E71CC7552E00974EE6 /* Frameworks */,
+				B68DE9E81CC7552E00974EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68DE9EC1CC7552E00974EE6 /* PBXTargetDependency */,
+			);
+			name = LYPayDemoTests;
+			productName = LYPayDemoTests;
+			productReference = B68DE9EA1CC7552E00974EE6 /* LYPayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B68DE9F41CC7552E00974EE6 /* LYPayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68DEA041CC7552E00974EE6 /* Build configuration list for PBXNativeTarget "LYPayDemoUITests" */;
+			buildPhases = (
+				B68DE9F11CC7552E00974EE6 /* Sources */,
+				B68DE9F21CC7552E00974EE6 /* Frameworks */,
+				B68DE9F31CC7552E00974EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B68DE9F71CC7552E00974EE6 /* PBXTargetDependency */,
+			);
+			name = LYPayDemoUITests;
+			productName = LYPayDemoUITests;
+			productReference = B68DE9F51CC7552E00974EE6 /* LYPayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B68DE9C91CC7552E00974EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liyang;
+				TargetAttributes = {
+					B68DE9D01CC7552E00974EE6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B68DE9E91CC7552E00974EE6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B68DE9D01CC7552E00974EE6;
+					};
+					B68DE9F41CC7552E00974EE6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B68DE9D01CC7552E00974EE6;
+					};
+				};
+			};
+			buildConfigurationList = B68DE9CC1CC7552E00974EE6 /* Build configuration list for PBXProject "LYPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B68DE9C81CC7552E00974EE6;
+			productRefGroup = B68DE9D21CC7552E00974EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B68DE9D01CC7552E00974EE6 /* LYPayDemo */,
+				B68DE9E91CC7552E00974EE6 /* LYPayDemoTests */,
+				B68DE9F41CC7552E00974EE6 /* LYPayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B68DE9CF1CC7552E00974EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68DE9E41CC7552E00974EE6 /* LaunchScreen.storyboard in Resources */,
+				B68DE9E11CC7552E00974EE6 /* Assets.xcassets in Resources */,
+				B68DE9DF1CC7552E00974EE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68DE9E81CC7552E00974EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68DE9F31CC7552E00974EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B68DE9CD1CC7552E00974EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68DE9DC1CC7552E00974EE6 /* ViewController.m in Sources */,
+				B68DE9D91CC7552E00974EE6 /* AppDelegate.m in Sources */,
+				B68DE9D61CC7552E00974EE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68DE9E61CC7552E00974EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68DE9EF1CC7552E00974EE6 /* LYPayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68DE9F11CC7552E00974EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68DE9FA1CC7552E00974EE6 /* LYPayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B68DE9EC1CC7552E00974EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68DE9D01CC7552E00974EE6 /* LYPayDemo */;
+			targetProxy = B68DE9EB1CC7552E00974EE6 /* PBXContainerItemProxy */;
+		};
+		B68DE9F71CC7552E00974EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B68DE9D01CC7552E00974EE6 /* LYPayDemo */;
+			targetProxy = B68DE9F61CC7552E00974EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B68DE9DD1CC7552E00974EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68DE9DE1CC7552E00974EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B68DE9E21CC7552E00974EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68DE9E31CC7552E00974EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B68DE9FC1CC7552E00974EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B68DE9FD1CC7552E00974EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B68DE9FF1CC7552E00974EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B68DEA001CC7552E00974EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LYPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B68DEA021CC7552E00974EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPayDemo.app/LYPayDemo";
+			};
+			name = Debug;
+		};
+		B68DEA031CC7552E00974EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYPayDemo.app/LYPayDemo";
+			};
+			name = Release;
+		};
+		B68DEA051CC7552E00974EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYPayDemo;
+			};
+			name = Debug;
+		};
+		B68DEA061CC7552E00974EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.LYPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYPayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B68DE9CC1CC7552E00974EE6 /* Build configuration list for PBXProject "LYPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68DE9FC1CC7552E00974EE6 /* Debug */,
+				B68DE9FD1CC7552E00974EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68DE9FE1CC7552E00974EE6 /* Build configuration list for PBXNativeTarget "LYPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68DE9FF1CC7552E00974EE6 /* Debug */,
+				B68DEA001CC7552E00974EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B68DEA011CC7552E00974EE6 /* Build configuration list for PBXNativeTarget "LYPayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68DEA021CC7552E00974EE6 /* Debug */,
+				B68DEA031CC7552E00974EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B68DEA041CC7552E00974EE6 /* Build configuration list for PBXNativeTarget "LYPayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B68DEA051CC7552E00974EE6 /* Debug */,
+				B68DEA061CC7552E00974EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B68DE9C91CC7552E00974EE6 /* Project object */;
+}
