@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WXApi.h"
+#import "LYWeiChatPay.h"
+#import <AlipaySDK/AlipaySDK.h>
 @interface AppDelegate ()
 
 @end
@@ -16,9 +18,30 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [WXApi registerApp:APP_ID];
     return YES;
 }
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    
+    if ([url.host isEqualToString:@"pay"]) {
+        // 微信
+        return [WXApi handleOpenURL:url delegate:[LYWeiChatPay sharedInstance]];
+    }else if ([url.host isEqualToString:@"safepay"]) {
+        // 处理支付结果
+        [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
+            
+            NSLog(@"result2 = %@",resultDic);
+            
+        }];
+        
+    }
+    return YES;
+}
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
