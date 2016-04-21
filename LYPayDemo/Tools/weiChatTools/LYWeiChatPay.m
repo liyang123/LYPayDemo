@@ -32,6 +32,7 @@
             case WXSuccess:
                 //服务器端查询支付通知或查询API返回的结果再提示成功
                 NSLog(@"支付成功");
+                
                 break;
             default:
                 NSLog(@"支付失败，retcode=%d",resp.errCode);
@@ -86,6 +87,7 @@
         
         if (!error) {
             NSString *xmlStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            // 字典的一个类别，把xml转成字典
             NSDictionary *dic = [NSDictionary dictionaryWithXMLString:xmlStr];
             
             NSString *return_code = [dic objectForKey:@"return_code"];
@@ -111,7 +113,7 @@
                 [signParams setObject: time_stamp   forKey:@"timestamp"];
                 [signParams setObject: prePayid     forKey:@"prepayid"];
                 /**
-                 *  把
+                 *  把字典key=value形式拼接成字符串，并且签名
                  */
                 NSString *signStr = [self createMd5Sign:signParams];
                 [signParams setObject:signStr forKey:@"sign"];
@@ -124,9 +126,7 @@
             }
         }else{
             NSLog(@"error = %@", error);
-            if (self.weiChatblock) {
-                self.weiChatblock(nil, error);
-            }
+            resultblock(nil, error);
         }
     }];
     [dataTask resume];
@@ -163,7 +163,7 @@
 
 
 /**
- *  获取 xml的带参数的签名包（package）
+ *  把字典数据拼接成xml格式字符串，并且在字符串最后签名，形成签名包（package）
  *
  *  @param packageParams 原始的数据字典（不带sign签名的字典）
  *  @param sign          把原始的数据字典转成字符串，然后拼接上用户私钥，最后md5加密得到的字符串

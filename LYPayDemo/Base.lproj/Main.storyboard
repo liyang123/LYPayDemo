@@ -24,16 +24,18 @@
                                     <action selector="aliPay" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Dm-Jz-TQf"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="OK" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4B0-Ui-vxt">
-                                <rect key="frame" x="139" y="399" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffj-te-r21">
                                 <rect key="frame" x="161" y="52" width="52" height="30"/>
                                 <state key="normal" title="Button1"/>
                                 <connections>
                                     <action selector="weiChatPay" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkx-Gw-y5X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAL-ZS-n0O">
+                                <rect key="frame" x="156" y="458" width="55" height="30"/>
+                                <state key="normal" title="Button3"/>
+                                <connections>
+                                    <action selector="btn3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAN-VV-rTB"/>
                                 </connections>
                             </button>
                         </subviews>

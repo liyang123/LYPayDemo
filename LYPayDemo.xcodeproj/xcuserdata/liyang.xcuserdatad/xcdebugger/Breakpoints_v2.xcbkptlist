@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "LYPayDemo/ViewController.m"
-            timestampString = "482829719.626589"
+            filePath = "LYPayDemo/Tools/weiChatTools/LYWeiChatPay.m"
+            timestampString = "482922939.285725"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-aliPay"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "-weiChatPayWithBody:orderID:totalFee:resultDic:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

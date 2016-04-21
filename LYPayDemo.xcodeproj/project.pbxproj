@@ -23,7 +23,6 @@
 		B68DEA211CC7565E00974EE6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DEA201CC7565E00974EE6 /* SystemConfiguration.framework */; };
 		B68DEA231CC7566900974EE6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DEA221CC7566900974EE6 /* libsqlite3.tbd */; };
 		B68DEA251CC7566E00974EE6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DEA241CC7566E00974EE6 /* libz.tbd */; };
-		B68DEA281CC7571500974EE6 /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = B68DEA271CC7571500974EE6 /* WXUtil.mm */; };
 		B68DEA2E1CC7601200974EE6 /* AliPay.m in Sources */ = {isa = PBXBuildFile; fileRef = B68DEA2D1CC7601200974EE6 /* AliPay.m */; };
 		B68DEA941CC7602B00974EE6 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B68DEA2F1CC7602B00974EE6 /* AlipaySDK.bundle */; };
 		B68DEA951CC7602B00974EE6 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DEA301CC7602B00974EE6 /* AlipaySDK.framework */; };
@@ -44,6 +43,8 @@
 		B68DEAA81CC7607500974EE6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DEAA71CC7607500974EE6 /* CoreText.framework */; };
 		B68DEAAA1CC7608000974EE6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DEAA91CC7608000974EE6 /* QuartzCore.framework */; };
 		B68DEAAC1CC760A000974EE6 /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B68DEAAB1CC760A000974EE6 /* libc.tbd */; };
+		B6EE90301CC8D19100B9EFC2 /* WXUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6EE902F1CC8D19100B9EFC2 /* WXUtil.mm */; };
+		B6EE90321CC8D67600B9EFC2 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = B6EE90311CC8D67600B9EFC2 /* me.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +95,6 @@
 		B68DEA201CC7565E00974EE6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B68DEA221CC7566900974EE6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B68DEA241CC7566E00974EE6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		B68DEA261CC7571500974EE6 /* WXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXUtil.h; path = ../../Tools/weiChatTools/WXUtil.h; sourceTree = "<group>"; };
-		B68DEA271CC7571500974EE6 /* WXUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = WXUtil.mm; path = ../../Tools/weiChatTools/WXUtil.mm; sourceTree = "<group>"; };
 		B68DEA2C1CC7601200974EE6 /* AliPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliPay.h; sourceTree = "<group>"; };
 		B68DEA2D1CC7601200974EE6 /* AliPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliPay.m; sourceTree = "<group>"; };
 		B68DEA2F1CC7602B00974EE6 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
@@ -202,6 +201,9 @@
 		B68DEAA71CC7607500974EE6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B68DEAA91CC7608000974EE6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B68DEAAB1CC760A000974EE6 /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		B6EE902E1CC8D19100B9EFC2 /* WXUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXUtil.h; sourceTree = "<group>"; };
+		B6EE902F1CC8D19100B9EFC2 /* WXUtil.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WXUtil.mm; sourceTree = "<group>"; };
+		B6EE90311CC8D67600B9EFC2 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +312,7 @@
 		B68DEA071CC755F600974EE6 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				B6EE90311CC8D67600B9EFC2 /* me.png */,
 				B68DEA1D1CC7562100974EE6 /* frameworks */,
 				B68DEA081CC755F600974EE6 /* alipay */,
 				B68DEA091CC755F600974EE6 /* weichat */,
@@ -334,11 +337,11 @@
 		B68DEA091CC755F600974EE6 /* weichat */ = {
 			isa = PBXGroup;
 			children = (
-				B68DEA261CC7571500974EE6 /* WXUtil.h */,
-				B68DEA271CC7571500974EE6 /* WXUtil.mm */,
 				B68DEA0A1CC755F600974EE6 /* libWeChatSDK.a */,
 				B68DEA0B1CC755F600974EE6 /* WXApi.h */,
 				B68DEA0C1CC755F600974EE6 /* WXApiObject.h */,
+				B6EE902E1CC8D19100B9EFC2 /* WXUtil.h */,
+				B6EE902F1CC8D19100B9EFC2 /* WXUtil.mm */,
 			);
 			path = weichat;
 			sourceTree = "<group>";
@@ -627,6 +630,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EE90321CC8D67600B9EFC2 /* me.png in Resources */,
 				B68DE9E41CC7552E00974EE6 /* LaunchScreen.storyboard in Resources */,
 				B68DE9E11CC7552E00974EE6 /* Assets.xcassets in Resources */,
 				B68DEA941CC7602B00974EE6 /* AlipaySDK.bundle in Resources */,
@@ -662,10 +666,10 @@
 				B68DE9DC1CC7552E00974EE6 /* ViewController.m in Sources */,
 				B68DEA9C1CC7602B00974EE6 /* MD5DataSigner.m in Sources */,
 				B68DEA9B1CC7602B00974EE6 /* DataVerifier.m in Sources */,
-				B68DEA281CC7571500974EE6 /* WXUtil.mm in Sources */,
 				B68DEA9A1CC7602B00974EE6 /* DataSigner.m in Sources */,
 				B68DE9D91CC7552E00974EE6 /* AppDelegate.m in Sources */,
 				B68DEA2E1CC7601200974EE6 /* AliPay.m in Sources */,
+				B6EE90301CC8D19100B9EFC2 /* WXUtil.mm in Sources */,
 				B68DEA9D1CC7602B00974EE6 /* NSDataEx.m in Sources */,
 				B68DEA1A1CC755F600974EE6 /* NSString+LYNSStringExtension.m in Sources */,
 				B68DEA9E1CC7602B00974EE6 /* openssl_wrapper.m in Sources */,

@@ -41,6 +41,7 @@
 	<string>1</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>itms-apps</string>
 		<string>weixin</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
